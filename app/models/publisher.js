@@ -6,4 +6,4 @@ export default Model.extend({
   name: attr('string'),
   discount: attr('number'),
   published: hasMany('book', { async: true })
-})
+});

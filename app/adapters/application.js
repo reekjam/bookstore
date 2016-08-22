@@ -7,4 +7,4 @@ export default JSONAPIAdapter.extend({
     return Ember.String.pluralize(Ember.String.underscore(type));
   }
 
-})
+});
