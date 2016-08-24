@@ -37,6 +37,10 @@ a.author {
   color: #111;
 }
 
+.button {
+  margin: 0em 2em 2em 2em;
+}
+
 .modal {
   width: 20em;
   height: 15em;

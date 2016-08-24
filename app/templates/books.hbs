@@ -1,6 +1,6 @@
-{{!-- {{#if showAll}} --}}
-  <button {{action 'showAll'}}>Show All</button>
-{{!-- {{/if}} --}}
+{{#if showAll}}
+  <button {{action 'showAll'}} class='button'>Show All</button>
+{{/if}}
 
 <ul>
   {{#each model as |book|}}
